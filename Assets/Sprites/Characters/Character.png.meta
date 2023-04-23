@@ -1,0 +1,2018 @@
+fileFormatVersion: 2
+guid: 9e171380c1f70c64b9eeefece1f4cb6d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 2
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WalkingUp1_SkinTone1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 310
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb68ee3e0eeade341a86a2b4892fda61
+      internalID: 1684419105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleUp_SkinTone1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 310
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edda30e8219a95b4d92a0378a842fe92
+      internalID: -1849762801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingUp2_SkinTone1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 310
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c143d7f59d75d245a130fbcd5f068a5
+      internalID: -1441973916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 310
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39d5c744e734b2e418e7fcea8bd2b806
+      internalID: -1110486308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 310
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e337113e85fd52845bc4903520ad9ba9
+      internalID: -186533835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 310
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4533c83d9567a640a9ca58b55d51036
+      internalID: -1146472745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 310
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba2c3c8cd4d31b42aa442e1de458007
+      internalID: -1861543445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_13
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 310
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6977134b33ca884481296452e5916f3
+      internalID: -995457809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_14
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 310
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12fcd2bab1651d84e803744c6305fb87
+      internalID: 551854406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingSide1_SkinTone1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 292
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52adebd4a791b7d44a086f15e056555f
+      internalID: 990023857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IdleSide_SkinTone1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 292
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ef5bbb7b520734182c941d5888b7d7
+      internalID: 1829569815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingSide2_SkinTone1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 292
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7930ce2ad38a754db1fcd6c8b0102fa
+      internalID: -1829494273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 292
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b2ecb7602249a14a8f1ed8d1c91cf59
+      internalID: -1889025194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_29
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 292
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9522516e1265c934d8ae4bd4ff9a0f79
+      internalID: 1501425914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_30
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 292
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4d30ec6a70e2e2408528e61395ed721
+      internalID: -1887402389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_32
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 292
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a9524b9d6f3411478f8bee8ca974b07
+      internalID: 1761209015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_33
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 292
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 519df1ef56cbeb4409e660e9b6168c2e
+      internalID: -1083017713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_34
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 292
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae4dd2b4cdc27c4885636db7e842d46
+      internalID: 566016137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingDown1_SkinTone1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 274
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2fcf283b904dc584dad55983411b573a
+      internalID: -608713514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_SkinTone1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 274
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 966808a92f73fe345acdaf18c52267f1
+      internalID: -1820211942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingDown2_SkinTone1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 274
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adcefcb5b93f83b43bd8a25c910eed63
+      internalID: 2023879447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_48
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 274
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9184118ec1234141821c90f6a99f668
+      internalID: -1761932034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_49
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 274
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d0ef5cde0447424f96d4721c18bed3f
+      internalID: 899081637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_50
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 274
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d31ca92b4c51147922423827303eae
+      internalID: -1281812653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_52
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 274
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c132a698c142f34784c1e91dfe4fe87
+      internalID: -439722903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_53
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 274
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82b52b7b658fa4642a2e27c356fdf5af
+      internalID: -1578027919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_54
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 274
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d35b271774f8a334883368cab7f7f1a9
+      internalID: 1655755021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_64
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45e94d8fa0743ab47ab0d7d7ae63e35c
+      internalID: 1794775927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_65
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 256
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea6852ae147e1454aaf029fd2d63ce32
+      internalID: 1475992543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_66
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 256
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 680640f37f1fde44c9edbc418bfd9453
+      internalID: 2067635613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_68
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f549a5f5d9d8b39448ede444323bb4cf
+      internalID: -1261647511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_69
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 256
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa5e0f3488430cd49ad0c9baa19ba71b
+      internalID: -2096970476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_70
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 256
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a1ddf77b43ebb4e87cd5b107122510
+      internalID: -1280457509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_72
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d40b6a5365cd9347bdde1494186a53f
+      internalID: 433532380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_73
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 256
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b6e45ac2c068048b099a39f0579d6b
+      internalID: -1263079428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_74
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 256
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42157abe0fc8bb04a9147c7544acc412
+      internalID: -1019919182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_124
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 202
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2e553003554b5f4bb67be26bbab2bb4
+      internalID: -1650755467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_125
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 202
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f103ba531cd18e4cb90bf1230a609fb
+      internalID: 1684233313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_126
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 202
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f71641dd212c42e418436f516e8b10ca
+      internalID: -1691665766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_128
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 202
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52895170ff268314bb14f21af02afd76
+      internalID: 340249622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_129
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 202
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 218db9794e4d8c04dba5948dcf1fba00
+      internalID: 1001521907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_130
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 202
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b9fcef99048b964d86fe40fdd2ffdf2
+      internalID: 1559387276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_132
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 202
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a0b5f4654f5217428bc5c89e609ba07
+      internalID: 616378497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_133
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 202
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50fec8279d0cc5d4381ffd69b9e1ec11
+      internalID: 458948964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_134
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 202
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f851b4372ca5d488bf8040644a4f47
+      internalID: -709679034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_144
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 184
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b881715351be1fc40a76f624a7adcd11
+      internalID: 783289264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_145
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 184
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05e6630d48d1e784fa4ac347ad1abb8b
+      internalID: 66584437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_146
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 184
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 884450ae197401a468f2661c871c2b86
+      internalID: -1335349185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_148
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 184
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7c791ca58a6f9e48a484f10a625b088
+      internalID: -1784263789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_149
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 184
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82cd1152d2eb93e408047fdb404d38ce
+      internalID: -381312535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_150
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 184
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b03ef1d351ced4479b7bae74e673074
+      internalID: 453788013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_152
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 184
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 852f7fc41b8ee694daf03d293066fb39
+      internalID: 1179678011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_153
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 184
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f5c528711f3444284ff2be596df683
+      internalID: -491652622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_154
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 184
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc0a908efaf1dc34887abd11e2d583aa
+      internalID: -1354205571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_164
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 166
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f339f4d9fed6f8428577853f9b245ba
+      internalID: -164427872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_165
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 166
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 494e0cb85f8ed3040ba67ed4bcecaf96
+      internalID: -400144798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_166
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 166
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4d92e6c73acec2469f0306d69d60ce4
+      internalID: -2013944928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_168
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 166
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99d1e1788d2a06a4ba14bd4ab63e066e
+      internalID: -653340479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_169
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 166
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f7c97d7dd17af8439c862de8a6985ef
+      internalID: -79944767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_170
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 166
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1be1739bff700c4ba2bbf76758f8ac0
+      internalID: 1058075344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_172
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 166
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9dbcfbc05386fa4bbb4608db507926a
+      internalID: -396620787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_173
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 166
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa15b68aac6d6724ba2f5f924e4b3e9c
+      internalID: -1452535325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_174
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 166
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9595495956e9054e84bb22c1d61d9b7
+      internalID: -2006757615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_184
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 148
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcd0fe7a90c27c144ab3250733c719f1
+      internalID: 1304155357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_185
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 148
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b639ec7d5e9268546925e90d73ffe142
+      internalID: -85297613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_186
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 148
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b49163095db4dd4b9870a4e97cd3311
+      internalID: -1218273074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_188
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 148
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82652c7ccb624d04ca53ed9810ae3f89
+      internalID: 2018096361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_189
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 148
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52ef11cfa5599a344948ff3b0445295e
+      internalID: 1408935215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_190
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 148
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a10d71b099a12d24abca4305e092f92c
+      internalID: 909214847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_192
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 148
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1875e05b1096e1a4b8441d5763fa87a5
+      internalID: -616190819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_193
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 148
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 104274372ea07e441b8c4840ca3c8964
+      internalID: 1665625798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Template_colored_variations_194
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 148
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08284e8a3a6da994798dd3a96d2ea9a6
+      internalID: 548936774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Template_colored_variations_170: 1058075344
+      Template_colored_variations_204: -1513549912
+      Template_colored_variations_257: -710304257
+      Template_colored_variations_90: 610112625
+      Template_colored_variations_273: -421500482
+      Template_colored_variations_160: -779665775
+      Template_colored_variations_234: -1395318947
+      Template_colored_variations_56: 104260288
+      Template_colored_variations_48: -1761932034
+      Template_colored_variations_98: -1470563454
+      Template_colored_variations_138: 259812656
+      Template_colored_variations_140: 156145044
+      Template_colored_variations_143: -2018845184
+      Template_colored_variations_280: -1620966450
+      Template_colored_variations_106: 1179258254
+      Template_colored_variations_128: 340249622
+      Template_colored_variations_259: 1454781829
+      Template_colored_variations_214: 828590475
+      Template_colored_variations_225: 1065373906
+      Template_colored_variations_353: -997857192
+      Template_colored_variations_66: 2067635613
+      Template_colored_variations_277: -889826459
+      Template_colored_variations_158: -1461603416
+      Template_colored_variations_191: -1923195685
+      Template_colored_variations_150: 453788013
+      Template_colored_variations_297: -943927351
+      Template_colored_variations_305: -322830237
+      Template_colored_variations_146: -1335349185
+      Template_colored_variations_31: 2016644815
+      Template_colored_variations_151: 226813984
+      Template_colored_variations_318: -1313850448
+      Template_colored_variations_121: -2065763863
+      Template_colored_variations_172: -396620787
+      Idle_SkinTone1: -1820211942
+      Template_colored_variations_320: 600220247
+      Template_colored_variations_93: 341840413
+      Template_colored_variations_70: -1280457509
+      Template_colored_variations_152: 1179678011
+      Template_colored_variations_285: 813184483
+      Template_colored_variations_164: -164427872
+      Template_colored_variations_91: -139605275
+      Template_colored_variations_209: -1543086704
+      Template_colored_variations_350: 1504819346
+      Template_colored_variations_206: 1878053574
+      Template_colored_variations_113: -1592747032
+      Template_colored_variations_283: 831016837
+      Template_colored_variations_272: -1805943045
+      Template_colored_variations_333: 1691094785
+      Template_colored_variations_55: 1686667945
+      Template_colored_variations_47: -423139523
+      Template_colored_variations_120: 161745267
+      Template_colored_variations_68: -1261647511
+      Template_colored_variations_229: 976982263
+      Template_colored_variations_269: 961558162
+      Template_colored_variations_77: -379537804
+      Template_colored_variations_148: -1784263789
+      Template_colored_variations_28: -1889025194
+      Template_colored_variations_258: -864592774
+      Template_colored_variations_155: -660816775
+      Template_colored_variations_32: 1761209015
+      Template_colored_variations_85: 906462704
+      Template_colored_variations_284: -1284869480
+      Template_colored_variations_22: -373088538
+      Template_colored_variations_51: 2107482250
+      Template_colored_variations_356: 602249181
+      Template_colored_variations_57: 344529348
+      Template_colored_variations_256: -593262693
+      Template_colored_variations_186: -1218273074
+      Template_colored_variations_210: 1523170569
+      Template_colored_variations_75: -1429672136
+      Template_colored_variations_78: -2037324021
+      Template_colored_variations_329: -1805056173
+      WalkingDown1_SkinTone1: -608713514
+      Template_colored_variations_250: -909519921
+      Template_colored_variations_192: -616190819
+      Template_colored_variations_275: -460770277
+      Template_colored_variations_109: -1057759852
+      Template_colored_variations_299: -1818424832
+      Template_colored_variations_254: -495133291
+      Template_colored_variations_189: 1408935215
+      Template_colored_variations_278: -2054606246
+      Template_colored_variations_153: -491652622
+      Template_colored_variations_81: -1945729992
+      Template_colored_variations_69: -2096970476
+      Template_colored_variations_193: 1665625798
+      Template_colored_variations_211: -58474581
+      Template_colored_variations_262: 454919753
+      Template_colored_variations_298: 252237777
+      Template_colored_variations_83: -82676875
+      Template_colored_variations_63: -1969095915
+      Template_colored_variations_301: -1490272535
+      Template_colored_variations_221: -155570183
+      Template_colored_variations_95: 712113454
+      Template_colored_variations_156: 95602831
+      Template_colored_variations_184: 1304155357
+      Template_colored_variations_309: 1794604979
+      Template_colored_variations_235: 477174134
+      Template_colored_variations_124: -1650755467
+      Template_colored_variations_271: -917789599
+      Template_colored_variations_264: -1288309537
+      Template_colored_variations_141: 1074241167
+      Template_colored_variations_203: -195942393
+      Template_colored_variations_304: -1982483328
+      Template_colored_variations_207: 385211491
+      Template_colored_variations_296: 482918596
+      WalkingUp2_SkinTone1: -1441973916
+      Template_colored_variations_58: -1367370961
+      Template_colored_variations_289: 323165985
+      Template_colored_variations_230: 1048378658
+      Template_colored_variations_185: -85297613
+      Template_colored_variations_122: 1312880054
+      Template_colored_variations_292: -1186269152
+      Template_colored_variations_260: 859957915
+      Template_colored_variations_87: -523423025
+      Template_colored_variations_131: -118588112
+      Template_colored_variations_175: -1574822451
+      Template_colored_variations_147: -1316256647
+      Template_colored_variations_295: 2077949904
+      Template_colored_variations_72: 433532380
+      Template_colored_variations_265: -1446440884
+      Template_colored_variations_267: -1750946652
+      Template_colored_variations_246: 1208378260
+      Template_colored_variations_276: 695935810
+      Template_colored_variations_12: -1861543445
+      WalkingDown2_SkinTone1: 2023879447
+      Template_colored_variations_348: -137819587
+      Template_colored_variations_181: 1493200719
+      Template_colored_variations_35: 884598278
+      Template_colored_variations_92: 272826532
+      Template_colored_variations_302: 703944546
+      Template_colored_variations_173: -1452535325
+      Template_colored_variations_171: -1678489603
+      Template_colored_variations_316: 32049985
+      Template_colored_variations_34: 566016137
+      Template_colored_variations_190: 909214847
+      Template_colored_variations_252: -813793108
+      Template_colored_variations_134: -709679034
+      Template_colored_variations_73: -1263079428
+      Template_colored_variations_349: -1706997530
+      Template_colored_variations_71: 381381548
+      Template_colored_variations_247: 30785198
+      Template_colored_variations_344: -1490722826
+      Template_colored_variations_347: 1411147370
+      Template_colored_variations_99: -1638513647
+      Template_colored_variations_19: 995230457
+      Template_colored_variations_125: 1684233313
+      Template_colored_variations_208: -2000090573
+      Template_colored_variations_86: 857608705
+      Template_colored_variations_359: -1499838572
+      Template_colored_variations_336: -762604360
+      WalkingUp1_SkinTone1: 1684419105
+      Template_colored_variations_288: 1733498898
+      IdleSide_SkinTone1: 1829569815
+      Template_colored_variations_59: -1363152715
+      Template_colored_variations_133: 458948964
+      Template_colored_variations_239: 175324445
+      Template_colored_variations_306: 1770846206
+      Template_colored_variations_112: -768789717
+      Template_colored_variations_249: -185520735
+      Template_colored_variations_219: 894226223
+      Template_colored_variations_322: -286607379
+      Template_colored_variations_220: 1873596774
+      Template_colored_variations_41: -303289191
+      Template_colored_variations_119: 1395985441
+      Template_colored_variations_7: 1305499508
+      Template_colored_variations_232: -597221392
+      IdleUp_SkinTone1: -1849762801
+      Template_colored_variations_123: -1175490734
+      Template_colored_variations_118: -865929283
+      Template_colored_variations_117: 86637884
+      Template_colored_variations_323: -113670001
+      Template_colored_variations_188: 2018096361
+      Template_colored_variations_241: 694308807
+      Template_colored_variations_282: 2124286046
+      Template_colored_variations_11: 478846809
+      Template_colored_variations_310: 1566230225
+      Template_colored_variations_313: 1271507039
+      Template_colored_variations_115: 1310255382
+      Template_colored_variations_13: -995457809
+      Template_colored_variations_49: 899081637
+      Template_colored_variations_352: -724077180
+      Template_colored_variations_110: -1394015226
+      Template_colored_variations_342: 2143880344
+      Template_colored_variations_54: 1655755021
+      Template_colored_variations_354: 1335310709
+      Template_colored_variations_157: -816471772
+      Template_colored_variations_300: -216118373
+      Template_colored_variations_198: -1039623252
+      Template_colored_variations_341: -371438629
+      Template_colored_variations_102: -296329791
+      Template_colored_variations_182: 1303936378
+      Template_colored_variations_218: 278239306
+      Template_colored_variations_231: -828268075
+      Template_colored_variations_165: -400144798
+      Template_colored_variations_242: -45680370
+      Template_colored_variations_194: 548936774
+      Template_colored_variations_43: 1352897682
+      Template_colored_variations_266: 1982499510
+      Template_colored_variations_330: -2101652268
+      Template_colored_variations_61: -704757398
+      Template_colored_variations_332: 787235370
+      Template_colored_variations_8: -1110486308
+      Template_colored_variations_20: 1298960543
+      Template_colored_variations_64: 1794775927
+      Template_colored_variations_126: -1691665766
+      Template_colored_variations_37: -1496013800
+      Template_colored_variations_100: -1725874715
+      Template_colored_variations_145: 66584437
+      Template_colored_variations_104: 1317445853
+      Template_colored_variations_176: -87307480
+      Template_colored_variations_67: -1311198860
+      Template_colored_variations_21: 695166990
+      Template_colored_variations_274: -188554756
+      Template_colored_variations_36: -1058044037
+      Template_colored_variations_139: -964619837
+      Template_colored_variations_111: 1348548875
+      Template_colored_variations_197: -736638564
+      Template_colored_variations_215: -632435267
+      Template_colored_variations_338: 981685177
+      Template_colored_variations_144: 783289264
+      Template_colored_variations_105: -373460132
+      Template_colored_variations_205: -539365846
+      Template_colored_variations_243: 1094500187
+      Template_colored_variations_307: 735592297
+      Template_colored_variations_345: 728804904
+      Template_colored_variations_27: 1109703232
+      Template_colored_variations_334: 1427672558
+      Template_colored_variations_3: 123599650
+      Template_colored_variations_213: 942920994
+      Template_colored_variations_321: 1909259991
+      WalkingSide1_SkinTone1: 990023857
+      Template_colored_variations_196: -1837640438
+      Template_colored_variations_89: -888429221
+      Template_colored_variations_82: -1596089866
+      Template_colored_variations_130: 1559387276
+      Template_colored_variations_96: 1263328178
+      Template_colored_variations_16: -1158384108
+      Template_colored_variations_65: 1475992543
+      Template_colored_variations_167: -1347969716
+      Template_colored_variations_248: -471910128
+      Template_colored_variations_15: -1060440179
+      Template_colored_variations_180: -285951741
+      Template_colored_variations_253: 1893059450
+      Template_colored_variations_1: -1689602663
+      Template_colored_variations_23: -967780009
+      Template_colored_variations_293: -1922627041
+      Template_colored_variations_328: -1943575872
+      Template_colored_variations_62: -515228851
+      Template_colored_variations_355: 1485712605
+      Template_colored_variations_245: 1618668977
+      Template_colored_variations_237: -1287367046
+      Template_colored_variations_216: -1637738333
+      Template_colored_variations_227: -1194002364
+      Template_colored_variations_357: 794882527
+      Template_colored_variations_224: 278788655
+      Template_colored_variations_88: 531992222
+      Template_colored_variations_9: -186533835
+      Template_colored_variations_2: 863033449
+      Template_colored_variations_159: -1382546823
+      Template_colored_variations_199: -1399030081
+      Template_colored_variations_17: -1000640894
+      Template_colored_variations_53: -1578027919
+      Template_colored_variations_52: -439722903
+      Template_colored_variations_79: -1390856
+      Template_colored_variations_177: -1710604159
+      Template_colored_variations_195: 2003989597
+      Template_colored_variations_97: -1647875940
+      Template_colored_variations_340: -734350851
+      Template_colored_variations_74: -1019919182
+      Template_colored_variations_33: -1083017713
+      Template_colored_variations_94: -207585594
+      Template_colored_variations_76: 1771615167
+      Template_colored_variations_263: 1998569297
+      Template_colored_variations_279: -1336558528
+      Template_colored_variations_107: 895386522
+      Template_colored_variations_311: 1983243859
+      Template_colored_variations_108: -204174663
+      Template_colored_variations_222: -2075430073
+      Template_colored_variations_178: -380445575
+      Template_colored_variations_270: 129982822
+      Template_colored_variations_29: 1501425914
+      Template_colored_variations_291: 112648271
+      Template_colored_variations_308: 937022624
+      Template_colored_variations_60: 789712593
+      Template_colored_variations_80: -819174074
+      Template_colored_variations_200: 1287421253
+      Template_colored_variations_327: -2086189622
+      Template_colored_variations_244: -1766449892
+      Template_colored_variations_169: -79944767
+      Template_colored_variations_240: 436802120
+      WalkingSide2_SkinTone1: -1829494273
+      Template_colored_variations_101: -1355952118
+      Template_colored_variations_162: -229280165
+      Template_colored_variations_18: -1492401519
+      Template_colored_variations_223: 1423038578
+      Template_colored_variations_290: -1794091441
+      Template_colored_variations_319: -420168857
+      Template_colored_variations_326: 1288801669
+      Template_colored_variations_40: -1392199589
+      Template_colored_variations_287: -1739581345
+      Template_colored_variations_103: 1229818838
+      Template_colored_variations_217: -1536761321
+      Template_colored_variations_261: 1953856856
+      Template_colored_variations_236: 2039442943
+      Template_colored_variations_303: -1195618662
+      Template_colored_variations_161: -698827612
+      Template_colored_variations_351: 1979277754
+      Template_colored_variations_137: -258261001
+      Template_colored_variations_294: 1897454231
+      Template_colored_variations_317: -1369001949
+      Template_colored_variations_154: -1354205571
+      Template_colored_variations_315: 1746474662
+      Template_colored_variations_114: 867616611
+      Template_colored_variations_335: -1855013324
+      Template_colored_variations_228: 376279813
+      Template_colored_variations_174: -2006757615
+      Template_colored_variations_14: 551854406
+      Template_colored_variations_314: -1908990126
+      Template_colored_variations_168: -653340479
+      Template_colored_variations_187: 805642237
+      Template_colored_variations_42: 1283175996
+      Template_colored_variations_149: -381312535
+      Template_colored_variations_202: -1445463246
+      Template_colored_variations_343: -831715817
+      Template_colored_variations_251: 1818565184
+      Template_colored_variations_358: -1236584006
+      Template_colored_variations_179: 36533557
+      Template_colored_variations_116: -1281598837
+      Template_colored_variations_339: -554746845
+      Template_colored_variations_10: -1146472745
+      Template_colored_variations_233: -409164696
+      Template_colored_variations_346: -290305940
+      Template_colored_variations_226: 873130851
+      Template_colored_variations_166: -2013944928
+      Template_colored_variations_212: -120894047
+      Template_colored_variations_129: 1001521907
+      Template_colored_variations_50: -1281812653
+      Template_colored_variations_337: 1988094232
+      Template_colored_variations_135: -1818182409
+      Template_colored_variations_183: 1644770038
+      Template_colored_variations_132: 616378497
+      Template_colored_variations_142: 790353183
+      Template_colored_variations_312: 1105796381
+      Template_colored_variations_30: -1887402389
+      Template_colored_variations_136: -1644352069
+      Template_colored_variations_38: -1406417566
+      Template_colored_variations_238: 1341792013
+      Template_colored_variations_163: 1643045824
+      Template_colored_variations_324: 631205167
+      Template_colored_variations_255: -1118570696
+      Template_colored_variations_286: 1376921209
+      Template_colored_variations_268: 797070944
+      Template_colored_variations_281: 372558173
+      Template_colored_variations_331: 2025559584
+      Template_colored_variations_39: -9811541
+      Template_colored_variations_325: 889812616
+      Template_colored_variations_201: -342328657
+      Template_colored_variations_84: -1814409810
+      Template_colored_variations_0: -1841820528
+      Template_colored_variations_127: 838654080
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

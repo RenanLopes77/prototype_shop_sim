@@ -48,7 +48,16 @@ namespace Prototype.Input
 #endregion
 #region Public Methods
         
-        public void AddAxisListener(UnityAction<Vector2> listener) => _axisListeners.Add(listener);
+        public void AddAxisListener(UnityAction<Vector2> listener)
+        {
+            _axisListeners.Add(listener);
+        }
+
+        public void RemoveAxisListener(UnityAction<Vector2> listener)
+        {
+            _axisListeners.Remove(listener);
+        }
+        
         public void AddKeyListener(string name, UnityAction onPress = null, UnityAction onRelease = null)
         {
             var key = _keys.FirstOrDefault(key => key.Name == name);

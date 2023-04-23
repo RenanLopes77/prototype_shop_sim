@@ -13,10 +13,14 @@ namespace Prototype.Player
             HandleInput.Instance.AddAxisListener(Move);
         }
 
+        private void OnDestroy()
+        {
+            HandleInput.Instance.RemoveAxisListener(Move);
+        }
+
         private void Move(Vector2 axis)
         {
             _rigidbody2D.velocity = axis;
-            _rigidbody2D.velocity *= _speed;
         }
     }
 }
