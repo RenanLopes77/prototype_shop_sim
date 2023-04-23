@@ -1,13 +1,22 @@
+using Prototype.Input;
 using UnityEngine;
 
-public class PlayerMovement : MonoBehaviour
+namespace Prototype.Player
 {
-    [SerializeField] private float _speed = 10f;
-    [SerializeField] private Rigidbody2D _rigidbody2D = null;
-
-    private void FixedUpdate()
+    public class PlayerMovement : MonoBehaviour
     {
-        _rigidbody2D.velocity = Input.Instance.GetAxis();
-        _rigidbody2D.velocity *= _speed;
+        [SerializeField] private float _speed = 10f;
+        [SerializeField] private Rigidbody2D _rigidbody2D = null;
+
+        private void Awake()
+        {
+            HandleInput.Instance.AddAxisListener(Move);
+        }
+
+        private void Move(Vector2 axis)
+        {
+            _rigidbody2D.velocity = axis;
+            _rigidbody2D.velocity *= _speed;
+        }
     }
 }
