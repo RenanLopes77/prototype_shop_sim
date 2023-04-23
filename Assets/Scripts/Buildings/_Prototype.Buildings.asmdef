@@ -1,0 +1,16 @@
+{
+    "name": "Prototype.Buildings",
+    "rootNamespace": "",
+    "references": [
+        "GUID:e1d3cea2c393af24991101952cc13509"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
