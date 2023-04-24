@@ -15,7 +15,7 @@ MonoBehaviour:
   Clothes:
   - Name: Hair_Long_Black
     Type: 2
-    Price: 0
+    Price: 30
     Cover: {fileID: -1111065671, guid: 7a1e1e9cc7db3b64d89217227a6a2e8d, type: 3}
     IdleFrames:
     - {fileID: 1254696498, guid: 7a1e1e9cc7db3b64d89217227a6a2e8d, type: 3}
@@ -30,7 +30,7 @@ MonoBehaviour:
     - {fileID: -1116462747, guid: 7a1e1e9cc7db3b64d89217227a6a2e8d, type: 3}
   - Name: Hair_Long_Blue
     Type: 2
-    Price: 0
+    Price: 50
     Cover: {fileID: 63491346, guid: 9648b3400f133734aa5362ec10b8157e, type: 3}
     IdleFrames:
     - {fileID: -781739392, guid: 9648b3400f133734aa5362ec10b8157e, type: 3}
@@ -45,7 +45,7 @@ MonoBehaviour:
     - {fileID: -731309628, guid: 9648b3400f133734aa5362ec10b8157e, type: 3}
   - Name: Hair_Long_Brown
     Type: 2
-    Price: 0
+    Price: 40
     Cover: {fileID: 1678640491, guid: e75104df1de4f3544aee7ffee25062de, type: 3}
     IdleFrames:
     - {fileID: -802582936, guid: e75104df1de4f3544aee7ffee25062de, type: 3}
@@ -60,7 +60,7 @@ MonoBehaviour:
     - {fileID: 81121491, guid: e75104df1de4f3544aee7ffee25062de, type: 3}
   - Name: Hair_Long_Gold
     Type: 2
-    Price: 0
+    Price: 40
     Cover: {fileID: 353007763, guid: 76d75a62eaa9c134fb2b42b0ce704734, type: 3}
     IdleFrames:
     - {fileID: 1645430556, guid: 76d75a62eaa9c134fb2b42b0ce704734, type: 3}
@@ -75,7 +75,7 @@ MonoBehaviour:
     - {fileID: -1383015857, guid: 76d75a62eaa9c134fb2b42b0ce704734, type: 3}
   - Name: Hair_Short_Black
     Type: 2
-    Price: 0
+    Price: 30
     Cover: {fileID: -913578367, guid: a16d5cf4c287a954b98ecc3992e177f4, type: 3}
     IdleFrames:
     - {fileID: -55040354, guid: a16d5cf4c287a954b98ecc3992e177f4, type: 3}
@@ -90,7 +90,7 @@ MonoBehaviour:
     - {fileID: -1763404190, guid: a16d5cf4c287a954b98ecc3992e177f4, type: 3}
   - Name: Hair_Short_Brown
     Type: 2
-    Price: 0
+    Price: 30
     Cover: {fileID: -641546423, guid: d53e80208e94cfb4fb45e85c5bf8af3f, type: 3}
     IdleFrames:
     - {fileID: -1716391929, guid: d53e80208e94cfb4fb45e85c5bf8af3f, type: 3}

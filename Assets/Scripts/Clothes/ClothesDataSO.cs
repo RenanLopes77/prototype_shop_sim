@@ -10,7 +10,7 @@ namespace Prototype.Clothes
 
         public Clothing GetByName(string name)
         {
-            return Clothes.Find(clothing => clothing.Name == name);
+            return Clothes.Find(clothing => clothing.Name.ToLower() == name.ToLower());
         }
     }
 }

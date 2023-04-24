@@ -15,8 +15,8 @@ MonoBehaviour:
   Clothes:
   - Name: Shirt_Blue
     Type: 4
-    Price: 0
-    Cover: {fileID: -1354360411, guid: e676064fec0809b4ea579fd51633074b, type: 3}
+    Price: 75
+    Cover: {fileID: 1228391272, guid: e676064fec0809b4ea579fd51633074b, type: 3}
     IdleFrames:
     - {fileID: 555670723, guid: e676064fec0809b4ea579fd51633074b, type: 3}
     UpFrames:
@@ -30,8 +30,8 @@ MonoBehaviour:
     - {fileID: -123102001, guid: e676064fec0809b4ea579fd51633074b, type: 3}
   - Name: Shirt_Green
     Type: 4
-    Price: 0
-    Cover: {fileID: 393669085, guid: 65e38058c425700458afe7015ca86ffa, type: 3}
+    Price: 75
+    Cover: {fileID: 1043134031, guid: 65e38058c425700458afe7015ca86ffa, type: 3}
     IdleFrames:
     - {fileID: 637214634, guid: 65e38058c425700458afe7015ca86ffa, type: 3}
     UpFrames:
@@ -45,8 +45,8 @@ MonoBehaviour:
     - {fileID: 631894345, guid: 65e38058c425700458afe7015ca86ffa, type: 3}
   - Name: Shirt_Red
     Type: 4
-    Price: 0
-    Cover: {fileID: -1299065363, guid: a40482621ea9a874d8513bef80288ee2, type: 3}
+    Price: 80
+    Cover: {fileID: 1732104672, guid: a40482621ea9a874d8513bef80288ee2, type: 3}
     IdleFrames:
     - {fileID: -1120893842, guid: a40482621ea9a874d8513bef80288ee2, type: 3}
     UpFrames:
@@ -60,8 +60,8 @@ MonoBehaviour:
     - {fileID: 1307390799, guid: a40482621ea9a874d8513bef80288ee2, type: 3}
   - Name: Shirt_White
     Type: 4
-    Price: 0
-    Cover: {fileID: -378240857, guid: 816e3103e85230b46a2d1246ffd71e38, type: 3}
+    Price: 100
+    Cover: {fileID: 939863751, guid: 816e3103e85230b46a2d1246ffd71e38, type: 3}
     IdleFrames:
     - {fileID: -936936889, guid: 816e3103e85230b46a2d1246ffd71e38, type: 3}
     UpFrames:

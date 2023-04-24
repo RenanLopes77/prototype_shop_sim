@@ -15,8 +15,8 @@ MonoBehaviour:
   Clothes:
   - Name: Pants_Gray
     Type: 3
-    Price: 0
-    Cover: {fileID: -156717981, guid: dcc9aefd0a03f174ca1300b3c0dad4d0, type: 3}
+    Price: 30
+    Cover: {fileID: 997254251, guid: dcc9aefd0a03f174ca1300b3c0dad4d0, type: 3}
     IdleFrames:
     - {fileID: -1646954188, guid: dcc9aefd0a03f174ca1300b3c0dad4d0, type: 3}
     UpFrames:
@@ -30,7 +30,7 @@ MonoBehaviour:
     - {fileID: 322559254, guid: dcc9aefd0a03f174ca1300b3c0dad4d0, type: 3}
   - Name: Pants_Brown
     Type: 3
-    Price: 0
+    Price: 30
     Cover: {fileID: 1610711183, guid: e0fe0f74acbb9f64681719fec3eafa90, type: 3}
     IdleFrames:
     - {fileID: 1762333341, guid: e0fe0f74acbb9f64681719fec3eafa90, type: 3}
@@ -45,8 +45,8 @@ MonoBehaviour:
     - {fileID: -1204809027, guid: e0fe0f74acbb9f64681719fec3eafa90, type: 3}
   - Name: Pants_BlackRed
     Type: 3
-    Price: 0
-    Cover: {fileID: 2131944699, guid: 49faf2a863fec564791f2f7d6c61a86c, type: 3}
+    Price: 80
+    Cover: {fileID: 324190563, guid: 49faf2a863fec564791f2f7d6c61a86c, type: 3}
     IdleFrames:
     - {fileID: 256825153, guid: 49faf2a863fec564791f2f7d6c61a86c, type: 3}
     UpFrames:
@@ -60,7 +60,7 @@ MonoBehaviour:
     - {fileID: 1463363956, guid: 49faf2a863fec564791f2f7d6c61a86c, type: 3}
   - Name: Pants_GreenGray
     Type: 3
-    Price: 0
+    Price: 50
     Cover: {fileID: 883535051, guid: 1e1c395c6c2da534ba1868410038ca42, type: 3}
     IdleFrames:
     - {fileID: 1571157150, guid: 1e1c395c6c2da534ba1868410038ca42, type: 3}
@@ -75,7 +75,7 @@ MonoBehaviour:
     - {fileID: -975947929, guid: 1e1c395c6c2da534ba1868410038ca42, type: 3}
   - Name: Pants_Orange
     Type: 3
-    Price: 0
+    Price: 40
     Cover: {fileID: 1942522757, guid: 1697f1b58253ddc46aa5a15458030108, type: 3}
     IdleFrames:
     - {fileID: -125865093, guid: 1697f1b58253ddc46aa5a15458030108, type: 3}

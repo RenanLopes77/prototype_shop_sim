@@ -24,7 +24,7 @@ namespace Prototype.UI
         private void SpawnInventoryItems()
         {
             DestroyContentChildren();
-            var itemNames = InventorySystem.GetNames(InventotyKeys.ITEMS);
+            var itemNames = InventorySystem.GetNames(InventoryKeys.ITEMS);
             itemNames.ForEach(
                 name =>
                 {

@@ -5,7 +5,7 @@ using UnityEngine.Events;
 
 namespace Prototype.Inventory
 {
-    public class InventotyKeys
+    public class InventoryKeys
     {
         public const string ITEMS = "inventory_items";
         public const string CLOTHES = "inventory_clothes";
@@ -29,14 +29,14 @@ namespace Prototype.Inventory
         public static void AddName(string key, string name)
         {
             var names = GetNames(key);
-            names.Add(name);
+            names.Add(name.ToLower());
             Save(key, names);
         }
 
         public static void RemoveName(string key, string name)
         {
             var names = GetNames(key);
-            names.Remove(name);
+            names.Remove(name.ToLower());
             Save(key, names);
         }
 
@@ -51,10 +51,10 @@ namespace Prototype.Inventory
         {
             switch(key)
             {
-                case InventotyKeys.ITEMS:
+                case InventoryKeys.ITEMS:
                     OnItemsChange?.Invoke();
                     break;
-                case InventotyKeys.CLOTHES_WEARING:
+                case InventoryKeys.CLOTHES_WEARING:
                     OnClothesWearingChange?.Invoke();
                     break;
             }
@@ -65,6 +65,11 @@ namespace Prototype.Inventory
             var names = PlayerPrefs.GetString(key, string.Empty).Split(SEPARATOR).ToList();
             names.Remove(string.Empty);
             return names;
+        }
+
+        public static bool ContainsName(string key, string name)
+        {
+            return GetNames(key).Contains(name.ToLower());
         }
     }
 }

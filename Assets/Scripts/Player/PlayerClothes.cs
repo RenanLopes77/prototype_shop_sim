@@ -26,13 +26,14 @@ namespace Prototype.Player
         
         private void Awake()
         {
-            if (InventorySystem.GetNames(InventotyKeys.CLOTHES_WEARING).Count == 0)
+            var names = InventorySystem.GetNames(InventoryKeys.CLOTHES_WEARING);
+            if (names.Count == 0)
             {
                 var clothes = _catalog.GetDefaultClothes();
                 clothes.ForEach(clothing =>
                 {
-                    InventorySystem.AddName(InventotyKeys.CLOTHES, clothing.Name);
-                    InventorySystem.AddName(InventotyKeys.CLOTHES_WEARING, clothing.Name);
+                    InventorySystem.AddName(InventoryKeys.CLOTHES, clothing.Name);
+                    InventorySystem.AddName(InventoryKeys.CLOTHES_WEARING, clothing.Name);
                 });
             }
         }
@@ -58,7 +59,7 @@ namespace Prototype.Player
 
         private void LoadClothes()
         {
-            var names = InventorySystem.GetNames(InventotyKeys.CLOTHES_WEARING);
+            var names = InventorySystem.GetNames(InventoryKeys.CLOTHES_WEARING);
             _clothes = _catalog.GetClothes(names);
         }
 

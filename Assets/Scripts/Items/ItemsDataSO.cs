@@ -11,7 +11,7 @@ namespace Prototype.Items
         {
             foreach (var item in Items)
             {
-                if (item.Name == name) return item;
+                if (item.Name.ToLower() == name.ToLower()) return item;
             }
 
             return null;

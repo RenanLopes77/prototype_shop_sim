@@ -15,7 +15,7 @@ MonoBehaviour:
   Clothes:
   - Name: Shoes_Black
     Type: 5
-    Price: 0
+    Price: 50
     Cover: {fileID: 872619060, guid: 8c89a9ee341bbbd4cad432e8d60583c5, type: 3}
     IdleFrames:
     - {fileID: -1419049579, guid: 8c89a9ee341bbbd4cad432e8d60583c5, type: 3}
@@ -30,7 +30,7 @@ MonoBehaviour:
     - {fileID: -147034464, guid: 8c89a9ee341bbbd4cad432e8d60583c5, type: 3}
   - Name: Shoes_Purple
     Type: 5
-    Price: 0
+    Price: 60
     Cover: {fileID: 756786050, guid: 733a88a2fe171db4ba5e7b16a19d16b8, type: 3}
     IdleFrames:
     - {fileID: -551077720, guid: 733a88a2fe171db4ba5e7b16a19d16b8, type: 3}
@@ -45,7 +45,7 @@ MonoBehaviour:
     - {fileID: 921244015, guid: 733a88a2fe171db4ba5e7b16a19d16b8, type: 3}
   - Name: Shoes_White
     Type: 5
-    Price: 0
+    Price: 70
     Cover: {fileID: -1630894395, guid: 61c4b433ce844cf4b9501b4cfa30b461, type: 3}
     IdleFrames:
     - {fileID: -880116620, guid: 61c4b433ce844cf4b9501b4cfa30b461, type: 3}
@@ -60,7 +60,7 @@ MonoBehaviour:
     - {fileID: -175274902, guid: 61c4b433ce844cf4b9501b4cfa30b461, type: 3}
   - Name: Shoes_WhiteRed
     Type: 5
-    Price: 0
+    Price: 100
     Cover: {fileID: 439989302, guid: 8ad44a8d19ab7824ab50077e3bedb250, type: 3}
     IdleFrames:
     - {fileID: 2115622087, guid: 8ad44a8d19ab7824ab50077e3bedb250, type: 3}
@@ -75,7 +75,7 @@ MonoBehaviour:
     - {fileID: -1127281765, guid: 8ad44a8d19ab7824ab50077e3bedb250, type: 3}
   - Name: Shoes_Yellow
     Type: 5
-    Price: 0
+    Price: 80
     Cover: {fileID: -1783772626, guid: 9cb5ab758725adf4b976535e300fd75c, type: 3}
     IdleFrames:
     - {fileID: -460122034, guid: 9cb5ab758725adf4b976535e300fd75c, type: 3}

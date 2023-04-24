@@ -33,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -2431,9 +2431,9 @@ TextureImporter:
       World_83: 917887748
       Shop_11: 1895963879
       World_98: 1844289635
+      Ground_15: -1994910079
       House_7: 1479268256
       World_86: 1684122513
-      Ground_15: -1994910079
       Ground_9: -2091755592
       Ground_23: -772433025
       House_0: 1239277813
@@ -2460,8 +2460,8 @@ TextureImporter:
       Ground_22: -862803957
       House_8: -283445620
       Ground_20: 1360997601
-      Ground_30: -1035348083
       Tomato_4: 128674131
+      Ground_30: -1035348083
       Shop_0: 1629649607
       House_13: 398522957
       Ground_27: -576111821
