@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b43397b0bbc71c4b8cfe3764c0039fb, type: 3}
+  m_Name: Pants
+  m_EditorClassIdentifier: 
+  Clothes:
+  - Name: Pants_Gray
+    Type: 3
+    Price: 0
+    Cover: {fileID: -156717981, guid: dcc9aefd0a03f174ca1300b3c0dad4d0, type: 3}
+    IdleFrames:
+    - {fileID: -1646954188, guid: dcc9aefd0a03f174ca1300b3c0dad4d0, type: 3}
+    UpFrames:
+    - {fileID: -156717981, guid: dcc9aefd0a03f174ca1300b3c0dad4d0, type: 3}
+    - {fileID: -1243593547, guid: dcc9aefd0a03f174ca1300b3c0dad4d0, type: 3}
+    DownFrames:
+    - {fileID: -1686627201, guid: dcc9aefd0a03f174ca1300b3c0dad4d0, type: 3}
+    - {fileID: 619423155, guid: dcc9aefd0a03f174ca1300b3c0dad4d0, type: 3}
+    SideFrames:
+    - {fileID: -1404768727, guid: dcc9aefd0a03f174ca1300b3c0dad4d0, type: 3}
+    - {fileID: 322559254, guid: dcc9aefd0a03f174ca1300b3c0dad4d0, type: 3}
+  - Name: Pants_Brown
+    Type: 3
+    Price: 0
+    Cover: {fileID: 1610711183, guid: e0fe0f74acbb9f64681719fec3eafa90, type: 3}
+    IdleFrames:
+    - {fileID: 1762333341, guid: e0fe0f74acbb9f64681719fec3eafa90, type: 3}
+    UpFrames:
+    - {fileID: -1437666039, guid: e0fe0f74acbb9f64681719fec3eafa90, type: 3}
+    - {fileID: 1526088262, guid: e0fe0f74acbb9f64681719fec3eafa90, type: 3}
+    DownFrames:
+    - {fileID: 282714245, guid: e0fe0f74acbb9f64681719fec3eafa90, type: 3}
+    - {fileID: -133062794, guid: e0fe0f74acbb9f64681719fec3eafa90, type: 3}
+    SideFrames:
+    - {fileID: -1912696, guid: e0fe0f74acbb9f64681719fec3eafa90, type: 3}
+    - {fileID: -1204809027, guid: e0fe0f74acbb9f64681719fec3eafa90, type: 3}
+  - Name: Pants_BlackRed
+    Type: 3
+    Price: 0
+    Cover: {fileID: 2131944699, guid: 49faf2a863fec564791f2f7d6c61a86c, type: 3}
+    IdleFrames:
+    - {fileID: 256825153, guid: 49faf2a863fec564791f2f7d6c61a86c, type: 3}
+    UpFrames:
+    - {fileID: 2131944699, guid: 49faf2a863fec564791f2f7d6c61a86c, type: 3}
+    - {fileID: -1825484895, guid: 49faf2a863fec564791f2f7d6c61a86c, type: 3}
+    DownFrames:
+    - {fileID: 786268683, guid: 49faf2a863fec564791f2f7d6c61a86c, type: 3}
+    - {fileID: -1499260845, guid: 49faf2a863fec564791f2f7d6c61a86c, type: 3}
+    SideFrames:
+    - {fileID: 1708730858, guid: 49faf2a863fec564791f2f7d6c61a86c, type: 3}
+    - {fileID: 1463363956, guid: 49faf2a863fec564791f2f7d6c61a86c, type: 3}
+  - Name: Pants_GreenGray
+    Type: 3
+    Price: 0
+    Cover: {fileID: 883535051, guid: 1e1c395c6c2da534ba1868410038ca42, type: 3}
+    IdleFrames:
+    - {fileID: 1571157150, guid: 1e1c395c6c2da534ba1868410038ca42, type: 3}
+    UpFrames:
+    - {fileID: -1592092791, guid: 1e1c395c6c2da534ba1868410038ca42, type: 3}
+    - {fileID: -1655371270, guid: 1e1c395c6c2da534ba1868410038ca42, type: 3}
+    DownFrames:
+    - {fileID: -154876981, guid: 1e1c395c6c2da534ba1868410038ca42, type: 3}
+    - {fileID: -405883855, guid: 1e1c395c6c2da534ba1868410038ca42, type: 3}
+    SideFrames:
+    - {fileID: 418490793, guid: 1e1c395c6c2da534ba1868410038ca42, type: 3}
+    - {fileID: -975947929, guid: 1e1c395c6c2da534ba1868410038ca42, type: 3}
+  - Name: Pants_Orange
+    Type: 3
+    Price: 0
+    Cover: {fileID: 1942522757, guid: 1697f1b58253ddc46aa5a15458030108, type: 3}
+    IdleFrames:
+    - {fileID: -125865093, guid: 1697f1b58253ddc46aa5a15458030108, type: 3}
+    UpFrames:
+    - {fileID: -1062563833, guid: 1697f1b58253ddc46aa5a15458030108, type: 3}
+    - {fileID: -400756504, guid: 1697f1b58253ddc46aa5a15458030108, type: 3}
+    DownFrames:
+    - {fileID: -996111270, guid: 1697f1b58253ddc46aa5a15458030108, type: 3}
+    - {fileID: -1411227330, guid: 1697f1b58253ddc46aa5a15458030108, type: 3}
+    SideFrames:
+    - {fileID: -515705598, guid: 1697f1b58253ddc46aa5a15458030108, type: 3}
+    - {fileID: -258560182, guid: 1697f1b58253ddc46aa5a15458030108, type: 3}

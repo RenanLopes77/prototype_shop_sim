@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b43397b0bbc71c4b8cfe3764c0039fb, type: 3}
+  m_Name: Shirts
+  m_EditorClassIdentifier: 
+  Clothes:
+  - Name: Shirt_Blue
+    Type: 4
+    Price: 0
+    Cover: {fileID: -1354360411, guid: e676064fec0809b4ea579fd51633074b, type: 3}
+    IdleFrames:
+    - {fileID: 555670723, guid: e676064fec0809b4ea579fd51633074b, type: 3}
+    UpFrames:
+    - {fileID: -1354360411, guid: e676064fec0809b4ea579fd51633074b, type: 3}
+    - {fileID: 1172081849, guid: e676064fec0809b4ea579fd51633074b, type: 3}
+    DownFrames:
+    - {fileID: 198044595, guid: e676064fec0809b4ea579fd51633074b, type: 3}
+    - {fileID: -2095136288, guid: e676064fec0809b4ea579fd51633074b, type: 3}
+    SideFrames:
+    - {fileID: 816949453, guid: e676064fec0809b4ea579fd51633074b, type: 3}
+    - {fileID: -123102001, guid: e676064fec0809b4ea579fd51633074b, type: 3}
+  - Name: Shirt_Green
+    Type: 4
+    Price: 0
+    Cover: {fileID: 393669085, guid: 65e38058c425700458afe7015ca86ffa, type: 3}
+    IdleFrames:
+    - {fileID: 637214634, guid: 65e38058c425700458afe7015ca86ffa, type: 3}
+    UpFrames:
+    - {fileID: 393669085, guid: 65e38058c425700458afe7015ca86ffa, type: 3}
+    - {fileID: -1481288785, guid: 65e38058c425700458afe7015ca86ffa, type: 3}
+    DownFrames:
+    - {fileID: 54435017, guid: 65e38058c425700458afe7015ca86ffa, type: 3}
+    - {fileID: -152486422, guid: 65e38058c425700458afe7015ca86ffa, type: 3}
+    SideFrames:
+    - {fileID: 38872143, guid: 65e38058c425700458afe7015ca86ffa, type: 3}
+    - {fileID: 631894345, guid: 65e38058c425700458afe7015ca86ffa, type: 3}
+  - Name: Shirt_Red
+    Type: 4
+    Price: 0
+    Cover: {fileID: -1299065363, guid: a40482621ea9a874d8513bef80288ee2, type: 3}
+    IdleFrames:
+    - {fileID: -1120893842, guid: a40482621ea9a874d8513bef80288ee2, type: 3}
+    UpFrames:
+    - {fileID: -1299065363, guid: a40482621ea9a874d8513bef80288ee2, type: 3}
+    - {fileID: 170939584, guid: a40482621ea9a874d8513bef80288ee2, type: 3}
+    DownFrames:
+    - {fileID: 1923318046, guid: a40482621ea9a874d8513bef80288ee2, type: 3}
+    - {fileID: 669936326, guid: a40482621ea9a874d8513bef80288ee2, type: 3}
+    SideFrames:
+    - {fileID: -208387665, guid: a40482621ea9a874d8513bef80288ee2, type: 3}
+    - {fileID: 1307390799, guid: a40482621ea9a874d8513bef80288ee2, type: 3}
+  - Name: Shirt_White
+    Type: 4
+    Price: 0
+    Cover: {fileID: -378240857, guid: 816e3103e85230b46a2d1246ffd71e38, type: 3}
+    IdleFrames:
+    - {fileID: -936936889, guid: 816e3103e85230b46a2d1246ffd71e38, type: 3}
+    UpFrames:
+    - {fileID: -378240857, guid: 816e3103e85230b46a2d1246ffd71e38, type: 3}
+    - {fileID: -985651442, guid: 816e3103e85230b46a2d1246ffd71e38, type: 3}
+    DownFrames:
+    - {fileID: 924163364, guid: 816e3103e85230b46a2d1246ffd71e38, type: 3}
+    - {fileID: -662361002, guid: 816e3103e85230b46a2d1246ffd71e38, type: 3}
+    SideFrames:
+    - {fileID: -1577750663, guid: 816e3103e85230b46a2d1246ffd71e38, type: 3}
+    - {fileID: -1970164599, guid: 816e3103e85230b46a2d1246ffd71e38, type: 3}

@@ -9,7 +9,7 @@ namespace Prototype.Inventory
     {
         public const string ITEMS = "inventory_items";
         public const string CLOTHES = "inventory_clothes";
-
+        public const string CLOTHES_WEARING = "inventory_clothes_Wearing";
     }
     
     public class InventorySystem
@@ -18,6 +18,7 @@ namespace Prototype.Inventory
         private const int MAXIMUM_ITEMS = 5;
 
         public static UnityEvent OnItemsChange {get; private set;} = new();
+        public static UnityEvent OnClothesWearingChange {get; private set;} = new();
 
         public static bool CheckItemFits(string key)
         {
@@ -48,7 +49,15 @@ namespace Prototype.Inventory
 
         private static void InventoryChanged(string key)
         {
-            if (key == InventotyKeys.ITEMS) OnItemsChange?.Invoke();
+            switch(key)
+            {
+                case InventotyKeys.ITEMS:
+                    OnItemsChange?.Invoke();
+                    break;
+                case InventotyKeys.CLOTHES_WEARING:
+                    OnClothesWearingChange?.Invoke();
+                    break;
+            }
         }
 
         public static List<string> GetNames(string key)

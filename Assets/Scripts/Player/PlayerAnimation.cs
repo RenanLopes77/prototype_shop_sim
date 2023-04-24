@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace Prototype.Player
@@ -11,7 +9,7 @@ namespace Prototype.Player
         private Vector3 _localScale = Vector3.zero;
         
         private void Update()
-        {            
+        {           
             _animator.SetFloat("Horizontal", _rigidbody2D.velocity.x);
             _animator.SetFloat("Vertical", _rigidbody2D.velocity.y);
             SetLocalScale();

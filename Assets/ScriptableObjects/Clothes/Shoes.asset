@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b43397b0bbc71c4b8cfe3764c0039fb, type: 3}
+  m_Name: Shoes
+  m_EditorClassIdentifier: 
+  Clothes:
+  - Name: Shoes_Black
+    Type: 5
+    Price: 0
+    Cover: {fileID: 872619060, guid: 8c89a9ee341bbbd4cad432e8d60583c5, type: 3}
+    IdleFrames:
+    - {fileID: -1419049579, guid: 8c89a9ee341bbbd4cad432e8d60583c5, type: 3}
+    UpFrames:
+    - {fileID: -1042184970, guid: 8c89a9ee341bbbd4cad432e8d60583c5, type: 3}
+    - {fileID: 222526610, guid: 8c89a9ee341bbbd4cad432e8d60583c5, type: 3}
+    DownFrames:
+    - {fileID: 1521708313, guid: 8c89a9ee341bbbd4cad432e8d60583c5, type: 3}
+    - {fileID: 1244997121, guid: 8c89a9ee341bbbd4cad432e8d60583c5, type: 3}
+    SideFrames:
+    - {fileID: 1819902453, guid: 8c89a9ee341bbbd4cad432e8d60583c5, type: 3}
+    - {fileID: -147034464, guid: 8c89a9ee341bbbd4cad432e8d60583c5, type: 3}
+  - Name: Shoes_Purple
+    Type: 5
+    Price: 0
+    Cover: {fileID: 756786050, guid: 733a88a2fe171db4ba5e7b16a19d16b8, type: 3}
+    IdleFrames:
+    - {fileID: -551077720, guid: 733a88a2fe171db4ba5e7b16a19d16b8, type: 3}
+    UpFrames:
+    - {fileID: -2074517176, guid: 733a88a2fe171db4ba5e7b16a19d16b8, type: 3}
+    - {fileID: 898901150, guid: 733a88a2fe171db4ba5e7b16a19d16b8, type: 3}
+    DownFrames:
+    - {fileID: 957553743, guid: 733a88a2fe171db4ba5e7b16a19d16b8, type: 3}
+    - {fileID: 1602559550, guid: 733a88a2fe171db4ba5e7b16a19d16b8, type: 3}
+    SideFrames:
+    - {fileID: -1874828631, guid: 733a88a2fe171db4ba5e7b16a19d16b8, type: 3}
+    - {fileID: 921244015, guid: 733a88a2fe171db4ba5e7b16a19d16b8, type: 3}
+  - Name: Shoes_White
+    Type: 5
+    Price: 0
+    Cover: {fileID: -1630894395, guid: 61c4b433ce844cf4b9501b4cfa30b461, type: 3}
+    IdleFrames:
+    - {fileID: -880116620, guid: 61c4b433ce844cf4b9501b4cfa30b461, type: 3}
+    UpFrames:
+    - {fileID: 1428491141, guid: 61c4b433ce844cf4b9501b4cfa30b461, type: 3}
+    - {fileID: 549899527, guid: 61c4b433ce844cf4b9501b4cfa30b461, type: 3}
+    DownFrames:
+    - {fileID: 459122415, guid: 61c4b433ce844cf4b9501b4cfa30b461, type: 3}
+    - {fileID: 665058151, guid: 61c4b433ce844cf4b9501b4cfa30b461, type: 3}
+    SideFrames:
+    - {fileID: 264047064, guid: 61c4b433ce844cf4b9501b4cfa30b461, type: 3}
+    - {fileID: -175274902, guid: 61c4b433ce844cf4b9501b4cfa30b461, type: 3}
+  - Name: Shoes_WhiteRed
+    Type: 5
+    Price: 0
+    Cover: {fileID: 439989302, guid: 8ad44a8d19ab7824ab50077e3bedb250, type: 3}
+    IdleFrames:
+    - {fileID: 2115622087, guid: 8ad44a8d19ab7824ab50077e3bedb250, type: 3}
+    UpFrames:
+    - {fileID: 1880472838, guid: 8ad44a8d19ab7824ab50077e3bedb250, type: 3}
+    - {fileID: 1078597851, guid: 8ad44a8d19ab7824ab50077e3bedb250, type: 3}
+    DownFrames:
+    - {fileID: -1260382012, guid: 8ad44a8d19ab7824ab50077e3bedb250, type: 3}
+    - {fileID: 1895543503, guid: 8ad44a8d19ab7824ab50077e3bedb250, type: 3}
+    SideFrames:
+    - {fileID: 1969831163, guid: 8ad44a8d19ab7824ab50077e3bedb250, type: 3}
+    - {fileID: -1127281765, guid: 8ad44a8d19ab7824ab50077e3bedb250, type: 3}
+  - Name: Shoes_Yellow
+    Type: 5
+    Price: 0
+    Cover: {fileID: -1783772626, guid: 9cb5ab758725adf4b976535e300fd75c, type: 3}
+    IdleFrames:
+    - {fileID: -460122034, guid: 9cb5ab758725adf4b976535e300fd75c, type: 3}
+    UpFrames:
+    - {fileID: -2027860800, guid: 9cb5ab758725adf4b976535e300fd75c, type: 3}
+    - {fileID: -1317939822, guid: 9cb5ab758725adf4b976535e300fd75c, type: 3}
+    DownFrames:
+    - {fileID: 1479034939, guid: 9cb5ab758725adf4b976535e300fd75c, type: 3}
+    - {fileID: -911263599, guid: 9cb5ab758725adf4b976535e300fd75c, type: 3}
+    SideFrames:
+    - {fileID: 1786116146, guid: 9cb5ab758725adf4b976535e300fd75c, type: 3}
+    - {fileID: -75608502, guid: 9cb5ab758725adf4b976535e300fd75c, type: 3}

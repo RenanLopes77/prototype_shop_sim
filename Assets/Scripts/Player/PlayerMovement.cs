@@ -21,6 +21,7 @@ namespace Prototype.Player
         private void Move(Vector2 axis)
         {
             _rigidbody2D.velocity = axis;
+            _rigidbody2D.velocity *= _speed;
         }
     }
 }

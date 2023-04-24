@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b43397b0bbc71c4b8cfe3764c0039fb, type: 3}
+  m_Name: Hairs
+  m_EditorClassIdentifier: 
+  Clothes:
+  - Name: Hair_Long_Black
+    Type: 2
+    Price: 0
+    Cover: {fileID: -1111065671, guid: 7a1e1e9cc7db3b64d89217227a6a2e8d, type: 3}
+    IdleFrames:
+    - {fileID: 1254696498, guid: 7a1e1e9cc7db3b64d89217227a6a2e8d, type: 3}
+    UpFrames:
+    - {fileID: -568647606, guid: 7a1e1e9cc7db3b64d89217227a6a2e8d, type: 3}
+    - {fileID: 876594491, guid: 7a1e1e9cc7db3b64d89217227a6a2e8d, type: 3}
+    DownFrames:
+    - {fileID: 1909506222, guid: 7a1e1e9cc7db3b64d89217227a6a2e8d, type: 3}
+    - {fileID: -1381417555, guid: 7a1e1e9cc7db3b64d89217227a6a2e8d, type: 3}
+    SideFrames:
+    - {fileID: 208889269, guid: 7a1e1e9cc7db3b64d89217227a6a2e8d, type: 3}
+    - {fileID: -1116462747, guid: 7a1e1e9cc7db3b64d89217227a6a2e8d, type: 3}
+  - Name: Hair_Long_Blue
+    Type: 2
+    Price: 0
+    Cover: {fileID: 63491346, guid: 9648b3400f133734aa5362ec10b8157e, type: 3}
+    IdleFrames:
+    - {fileID: -781739392, guid: 9648b3400f133734aa5362ec10b8157e, type: 3}
+    UpFrames:
+    - {fileID: -70366553, guid: 9648b3400f133734aa5362ec10b8157e, type: 3}
+    - {fileID: 863162339, guid: 9648b3400f133734aa5362ec10b8157e, type: 3}
+    DownFrames:
+    - {fileID: -1330348223, guid: 9648b3400f133734aa5362ec10b8157e, type: 3}
+    - {fileID: -46953756, guid: 9648b3400f133734aa5362ec10b8157e, type: 3}
+    SideFrames:
+    - {fileID: 700160286, guid: 9648b3400f133734aa5362ec10b8157e, type: 3}
+    - {fileID: -731309628, guid: 9648b3400f133734aa5362ec10b8157e, type: 3}
+  - Name: Hair_Long_Brown
+    Type: 2
+    Price: 0
+    Cover: {fileID: 1678640491, guid: e75104df1de4f3544aee7ffee25062de, type: 3}
+    IdleFrames:
+    - {fileID: -802582936, guid: e75104df1de4f3544aee7ffee25062de, type: 3}
+    UpFrames:
+    - {fileID: -633105208, guid: e75104df1de4f3544aee7ffee25062de, type: 3}
+    - {fileID: 2043995586, guid: e75104df1de4f3544aee7ffee25062de, type: 3}
+    DownFrames:
+    - {fileID: 1183720385, guid: e75104df1de4f3544aee7ffee25062de, type: 3}
+    - {fileID: 179186029, guid: e75104df1de4f3544aee7ffee25062de, type: 3}
+    SideFrames:
+    - {fileID: -2086133728, guid: e75104df1de4f3544aee7ffee25062de, type: 3}
+    - {fileID: 81121491, guid: e75104df1de4f3544aee7ffee25062de, type: 3}
+  - Name: Hair_Long_Gold
+    Type: 2
+    Price: 0
+    Cover: {fileID: 353007763, guid: 76d75a62eaa9c134fb2b42b0ce704734, type: 3}
+    IdleFrames:
+    - {fileID: 1645430556, guid: 76d75a62eaa9c134fb2b42b0ce704734, type: 3}
+    UpFrames:
+    - {fileID: -959372541, guid: 76d75a62eaa9c134fb2b42b0ce704734, type: 3}
+    - {fileID: 1017391828, guid: 76d75a62eaa9c134fb2b42b0ce704734, type: 3}
+    DownFrames:
+    - {fileID: 1648696791, guid: 76d75a62eaa9c134fb2b42b0ce704734, type: 3}
+    - {fileID: 640360908, guid: 76d75a62eaa9c134fb2b42b0ce704734, type: 3}
+    SideFrames:
+    - {fileID: -726287184, guid: 76d75a62eaa9c134fb2b42b0ce704734, type: 3}
+    - {fileID: -1383015857, guid: 76d75a62eaa9c134fb2b42b0ce704734, type: 3}
+  - Name: Hair_Short_Black
+    Type: 2
+    Price: 0
+    Cover: {fileID: -913578367, guid: a16d5cf4c287a954b98ecc3992e177f4, type: 3}
+    IdleFrames:
+    - {fileID: -55040354, guid: a16d5cf4c287a954b98ecc3992e177f4, type: 3}
+    UpFrames:
+    - {fileID: 1566750885, guid: a16d5cf4c287a954b98ecc3992e177f4, type: 3}
+    - {fileID: 28429418, guid: a16d5cf4c287a954b98ecc3992e177f4, type: 3}
+    DownFrames:
+    - {fileID: -1309808136, guid: a16d5cf4c287a954b98ecc3992e177f4, type: 3}
+    - {fileID: 803595581, guid: a16d5cf4c287a954b98ecc3992e177f4, type: 3}
+    SideFrames:
+    - {fileID: -2146460134, guid: a16d5cf4c287a954b98ecc3992e177f4, type: 3}
+    - {fileID: -1763404190, guid: a16d5cf4c287a954b98ecc3992e177f4, type: 3}
+  - Name: Hair_Short_Brown
+    Type: 2
+    Price: 0
+    Cover: {fileID: -641546423, guid: d53e80208e94cfb4fb45e85c5bf8af3f, type: 3}
+    IdleFrames:
+    - {fileID: -1716391929, guid: d53e80208e94cfb4fb45e85c5bf8af3f, type: 3}
+    UpFrames:
+    - {fileID: -128118859, guid: d53e80208e94cfb4fb45e85c5bf8af3f, type: 3}
+    - {fileID: -751275087, guid: d53e80208e94cfb4fb45e85c5bf8af3f, type: 3}
+    DownFrames:
+    - {fileID: -1132400821, guid: d53e80208e94cfb4fb45e85c5bf8af3f, type: 3}
+    - {fileID: -2088930703, guid: d53e80208e94cfb4fb45e85c5bf8af3f, type: 3}
+    SideFrames:
+    - {fileID: 1133734039, guid: d53e80208e94cfb4fb45e85c5bf8af3f, type: 3}
+    - {fileID: 165527619, guid: d53e80208e94cfb4fb45e85c5bf8af3f, type: 3}

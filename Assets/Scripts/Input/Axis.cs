@@ -8,8 +8,8 @@ namespace Prototype.Input
         public const string VERTICAL = "Vertical";
         public static Vector2 GetValues(Vector2 axisValues)
         {
-            axisValues.x = UnityEngine.Input.GetAxis(HORIZONTAL);
-            axisValues.y = UnityEngine.Input.GetAxis(VERTICAL);
+            axisValues.x = UnityEngine.Input.GetAxisRaw(HORIZONTAL);
+            axisValues.y = UnityEngine.Input.GetAxisRaw(VERTICAL);
             return axisValues.normalized;
         }
     }
