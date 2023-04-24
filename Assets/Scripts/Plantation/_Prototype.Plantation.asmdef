@@ -1,0 +1,16 @@
+{
+    "name": "_Prototype.Plantation",
+    "rootNamespace": "",
+    "references": [
+        "GUID:3459d3b2e636c7949a79ec0e4fdf7cec"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

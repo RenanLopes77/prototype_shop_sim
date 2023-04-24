@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32dd92bfec100a447b4032a1460ad82e, type: 3}
+  m_Name: PlantationData
+  m_EditorClassIdentifier: 
+  Plants:
+  - Stages:
+    - {fileID: 1608422988, guid: 3c1ee4e0c26c38b4697dad7bf06a40a4, type: 3}
+    - {fileID: -1116495187, guid: 3c1ee4e0c26c38b4697dad7bf06a40a4, type: 3}
+    - {fileID: -483669426, guid: 3c1ee4e0c26c38b4697dad7bf06a40a4, type: 3}
+    - {fileID: -1052588314, guid: 3c1ee4e0c26c38b4697dad7bf06a40a4, type: 3}
+    - {fileID: 128674131, guid: 3c1ee4e0c26c38b4697dad7bf06a40a4, type: 3}
+    - {fileID: 22304912, guid: 3c1ee4e0c26c38b4697dad7bf06a40a4, type: 3}
+    Prefab: {fileID: 8952250587671467213, guid: 18636682e552b1d46a18df592a79522f, type: 3}
+    TimePerStage: 5
+  - Stages:
+    - {fileID: -2044337133, guid: 3c1ee4e0c26c38b4697dad7bf06a40a4, type: 3}
+    - {fileID: -1827251792, guid: 3c1ee4e0c26c38b4697dad7bf06a40a4, type: 3}
+    - {fileID: 1049925891, guid: 3c1ee4e0c26c38b4697dad7bf06a40a4, type: 3}
+    - {fileID: -1056095430, guid: 3c1ee4e0c26c38b4697dad7bf06a40a4, type: 3}
+    - {fileID: -1012083417, guid: 3c1ee4e0c26c38b4697dad7bf06a40a4, type: 3}
+    - {fileID: -236621811, guid: 3c1ee4e0c26c38b4697dad7bf06a40a4, type: 3}
+    Prefab: {fileID: 7748575033733002856, guid: 20676dcd16831684399be45a42cd2885, type: 3}
+    TimePerStage: 8
