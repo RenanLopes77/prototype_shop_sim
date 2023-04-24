@@ -32,7 +32,10 @@ namespace Prototype.Input
 
         private void Update()
         {
-            _keys.ForEach(key => key.HandleKey());
+            for (int i = _keys.Count - 1; i >= 0; i--)
+            {
+                _keys[i]?.HandleKey();
+            }
         }
 
         private void FixedUpdate()

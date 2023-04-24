@@ -8,10 +8,15 @@ namespace Prototype.UI
         [SerializeField] private ShopItemUI _itemUIPrefab = null;
         [SerializeField] private Transform _content = null;
         [SerializeField] private ItemsDataSO _itemsData = null;
-        
-        private void Start()
+
+        private void OnEnable()
         {
             InstantiateItems();
+        }
+
+        private void OnDisable()
+        {
+            DestroyContentChildren();   
         }
 
         private void InstantiateItems()
@@ -20,6 +25,14 @@ namespace Prototype.UI
             {
                 var itemUI = Instantiate(_itemUIPrefab, _content);
                 itemUI.SetData(item);
+            }
+        }
+
+        private void DestroyContentChildren()
+        {
+            foreach (Transform child in _content)
+            {
+                Destroy(child.gameObject);
             }
         }
     }

@@ -30,6 +30,7 @@ namespace Prototype.UI
         public void LoadPants() => LoadItemsUI(_catalog.Pants);
         public void LoadShoes() => LoadItemsUI(_catalog.Shoes);
         public void LoadHairs() => LoadItemsUI(_catalog.Hairs);
+        public void LoadSkins() => LoadItemsUI(_catalog.Skins);
         private void DestroyContentChildren()
         {
             foreach (Transform child in _content)

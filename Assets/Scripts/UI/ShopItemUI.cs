@@ -16,6 +16,13 @@ namespace Prototype.UI
         [SerializeField] private GameObject _sellButton = null;
         private Item _item = null;
 
+        private void OnEnable()
+        {
+            if (_item == null) return;
+            CheckCanAfford();
+            CheckCanSell();
+        }
+
         private void OnDestroy()
         {
             MoneySystem.OnValueChange.RemoveListener(CheckCanAfford);
@@ -36,10 +43,7 @@ namespace Prototype.UI
 
         private void CheckCanAfford()
         {
-            if (
-                MoneySystem.CanSpend(_item.Price) &&
-                InventorySystem.CheckItemFits(InventoryKeys.ITEMS)
-            )
+            if (MoneySystem.CanSpend(_item.Price))
             {
                 _price.color = Color.black;
             }
@@ -57,7 +61,10 @@ namespace Prototype.UI
 
         public void OnClickBuy()
         {
-            if (MoneySystem.Spend(_item.Price))
+            if (
+                InventorySystem.CheckItemFits(InventoryKeys.ITEMS) &&
+                MoneySystem.Spend(_item.Price)
+            )
             {
                 InventorySystem.AddName(InventoryKeys.ITEMS, _item.Name);
             }

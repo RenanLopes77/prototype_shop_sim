@@ -37,8 +37,8 @@ namespace Prototype.Plantation
 
         private void Grown()
         {
-            Instantiate(_plant.Prefab, transform.position, Quaternion.identity);
-            Destroy(gameObject);
+            var plantGO = Instantiate(_plant.Prefab, transform.position, Quaternion.identity);
+            plantGO.GetComponent<PlantationItem>().OnCollect.AddListener(GetPlant);
         }
     }
 }
