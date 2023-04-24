@@ -5,6 +5,7 @@ namespace Prototype.Input
     public static class Keys
     {
         public const string INTERACT = "Interact";
+        public const string PLANT = "Plant";
     }
 
     public class Key
