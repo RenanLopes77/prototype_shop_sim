@@ -27,7 +27,7 @@ namespace Prototype.UI
             _item = item;
             _image.sprite = _item.Sprite;
             _name.SetText(_item.Name);
-            _price.SetText(Format.Money(_item.Price));
+            _price.SetText(_item.Price.ToString());
             CheckCanAfford();
             CheckCanSell();
             MoneySystem.OnValueChange.AddListener(CheckCanAfford);

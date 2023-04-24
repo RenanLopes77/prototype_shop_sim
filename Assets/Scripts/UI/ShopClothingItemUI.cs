@@ -2,7 +2,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using Prototype.Clothes;
-using Prototype.Utils;
 using Prototype.Inventory;
 using Prototype.Money;
 using TMPro;
@@ -26,7 +25,7 @@ namespace Prototype.UI
         {
             _clothing = clothing;
             _image.sprite = _clothing.Cover;
-            _price.SetText(Format.Money(_clothing.Price));
+            _price.SetText(_clothing.Price.ToString());
             CheckIsPurchased();
             CheckCanAfford();
             MoneySystem.OnValueChange.AddListener(CheckCanAfford);

@@ -21,7 +21,7 @@ namespace Prototype.UI
 
         private void UpdateCoinsText()
         {
-            _coins.SetText(Format.Money(MoneySystem.GetValue()));
+            _coins.SetText(MoneySystem.GetValue().ToString());
         }
     }
 }
